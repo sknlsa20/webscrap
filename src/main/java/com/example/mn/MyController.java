@@ -77,7 +77,7 @@ public class MyController {
 		String tableHtml = null;
 		
 		try {
-		    String url = "https://dpboss.boston/panel-chart-record/"+gamename;
+		    String url = "https://dpboss.boston//panel-chart-record//"+gamename;
 		 
 		    Document doc = Jsoup.connect(url)
 		            .userAgent("Mozilla/5.0")
